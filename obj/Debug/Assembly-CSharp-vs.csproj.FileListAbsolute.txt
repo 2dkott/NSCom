@@ -1,0 +1,14 @@
+D:\Art\GameProjects\NorthStarCommander\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+D:\Art\GameProjects\NorthStarCommander\Temp\bin\Debug\Assembly-CSharp.dll
+D:\Art\GameProjects\NorthStarCommander\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\Art\GameProjects\NorthStarCommander\Temp\bin\Debug\Assembly-UnityScript-firstpass.dll
+D:\Art\GameProjects\NorthStarCommander\Temp\bin\Debug\UnityEditor.dll
+D:\Art\GameProjects\NorthStarCommander\Temp\bin\Debug\UnityEngine.dll
+D:\Art\GameProjects\NorthStarCommander\Temp\bin\Debug\UnityEngine.UI.dll
+D:\Art\GameProjects\NorthStarCommander\Temp\bin\Debug\Mono.Cecil.dll
+D:\Art\GameProjects\NorthStarCommander\Temp\bin\Debug\nunit.framework.dll
+D:\Art\GameProjects\NorthStarCommander\Temp\bin\Debug\Unity.DataContract.dll
+D:\Art\GameProjects\NorthStarCommander\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\Art\GameProjects\NorthStarCommander\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\Art\GameProjects\NorthStarCommander\obj\Debug\Assembly-CSharp.dll
+D:\Art\GameProjects\NorthStarCommander\obj\Debug\Assembly-CSharp.pdb

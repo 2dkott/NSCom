@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 79a19fbad6b36f4469344892a228a537
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: _Gun_Barrel001
+    100002: _Gun_Base001
+    100004: //RootNode
+    100006: _Gun_Barre
+    100008: _Gun_Base0
+    100010: _Gun_Barrel
+    100012: _Gun_Barrel_End
+    100014: _Gun_Base
+    100016: gun_small_rail_B0
+    400000: _Gun_Barrel001
+    400002: _Gun_Base001
+    400004: //RootNode
+    400006: _Gun_Barre
+    400008: _Gun_Base0
+    400010: _Gun_Barrel
+    400012: _Gun_Barrel_End
+    400014: _Gun_Base
+    400016: gun_small_rail_B0
+    2300000: _Gun_Barrel001
+    2300002: _Gun_Base001
+    2300004: _Gun_Barre
+    2300006: _Gun_Base0
+    2300008: //RootNode
+    2300010: _Gun_Barrel
+    2300012: _Gun_Base
+    2300014: _Gun_Barrel_End
+    3300000: _Gun_Barrel001
+    3300002: _Gun_Base001
+    3300004: _Gun_Barre
+    3300006: _Gun_Base0
+    3300008: //RootNode
+    3300010: _Gun_Barrel
+    3300012: _Gun_Base
+    3300014: _Gun_Barrel_End
+    4300000: _Gun_Barrel001
+    4300002: _Gun_Base001
+    4300004: _Gun_Barre
+    4300006: _Gun_Base0
+    4300008: _Gun_Barrel
+    4300010: _Gun_Base
+    4300012: _Gun_Barrel_End
+    7400000: Hide
+    7400002: hide
+    7400004: unhide
+    7400006: hide
+    7400008: idleUnhidden
+    7400010: hide
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: hide
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _Gun_Base
+        weight: 1
+      - path: _Gun_Base/_Gun_Barrel
+        weight: 1
+      - path: _Gun_Base/_Gun_Barrel/_Gun_Barrel_End
+        weight: 1
+      - path: gun_small_rail_B0
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idleUnhidden
+      takeName: Take 001
+      firstFrame: 35
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _Gun_Base
+        weight: 1
+      - path: _Gun_Base/_Gun_Barrel
+        weight: 1
+      - path: _Gun_Base/_Gun_Barrel/_Gun_Barrel_End
+        weight: 1
+      - path: gun_small_rail_B0
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

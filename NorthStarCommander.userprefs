@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Shaders\dif_a_2_nm_spec_gloss_1.2.shader">
+    <Files>
+      <File FileName="Assets\Scripts\Mechanisms\SeparateXYRotationMechanism.cs" Line="1" Column="1" />
+      <File FileName="Assets\Extensions\Sources\Unknown\PaintVertices.js" Line="1" Column="1" />
+      <File FileName="Assets\Rebindable Input\How To Use.txt" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\RebindableInput\Scripts\RebindableData.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Weapon\Shells\SmallGunShell.cs" Line="1" Column="1" />
+      <File FileName="Assets\Shaders\dif_a_2_nm_spec_gloss_1.2.shader" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="D:\Art\GameProjects\NorthStarCommander\Assets\Scripts\ShipComponents\Guns\SmallGunMechanicControl.cs" line="35" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

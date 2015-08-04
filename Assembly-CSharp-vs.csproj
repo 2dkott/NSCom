@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{27D45109-89C0-6603-8B7C-D9448DCDA546}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_2;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\DecalSystem\DecalSystem\Decal.cs" />
+     <Compile Include="Assets\EasyConsole\Commands\ConsoleWatch.cs" />
+     <Compile Include="Assets\EasyConsole\Examples\CustomCommandTest.cs" />
+     <Compile Include="Assets\EasyConsole\Examples\CustomParseTest.cs" />
+     <Compile Include="Assets\EasyConsole\FrontEnd\NGUI\ConsoleNGUI.cs" />
+     <Compile Include="Assets\EasyConsole\FrontEnd\UnityGUI\ConsoleGUI.cs" />
+     <Compile Include="Assets\EasyConsole\Parsers\ConsoleParsers.cs" />
+     <Compile Include="Assets\EditorScript\AnalyzeModelComponentsEditorSrc.cs" />
+     <Compile Include="Assets\EditorScript\CloneObjectPositionEsitorSrc.cs" />
+     <Compile Include="Assets\Extensions\Sources\Unknown\LightningBolt.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\LanguageSelection.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButton.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonColor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonKeys.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonMessage.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonOffset.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonPlayAnimation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonScale.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonSound.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonTween.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UICheckbox.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UICheckboxControlledComponent.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UICheckboxControlledObject.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragCamera.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragObject.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragPanelContents.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDraggableCamera.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDraggablePanel.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIForwardEvents.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIGrid.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIImageButton.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIInputValidator.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIPopupList.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UISavedOption.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIScrollBar.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UISlider.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UISliderColors.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UITable.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\Localization.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\SpringPanel.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenColor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenPosition.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenRotation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenScale.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenTransform.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenVolume.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\UITweener.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIAnchor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIAtlas.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UICamera.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIFilledSprite.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIFont.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIInput.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIInputSaved.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UILabel.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UILocalize.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIOrthoCamera.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIPanel.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIRoot.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UISlicedSprite.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UISprite.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UISpriteAnimation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIStretch.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UITextList.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UITexture.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UITiledSprite.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
+     <Compile Include="Assets\Rebindable Input\Scripts\RebindableInput.cs" />
+     <Compile Include="Assets\Scripts\Camera\CameraClippingSettings.cs" />
+     <Compile Include="Assets\Scripts\Camera\Ship\ShipCamera.cs" />
+     <Compile Include="Assets\Scripts\Characters\Actor.cs" />
+     <Compile Include="Assets\Scripts\Characters\IActor.cs" />
+     <Compile Include="Assets\Scripts\Common\Animation\Mesh\AnimControlAnimation.cs" />
+     <Compile Include="Assets\Scripts\Common\Animation\PartSystemAnimation\PrtSystemAnimation.cs" />
+     <Compile Include="Assets\Scripts\Common\Animation\TextureAnimation\TextureTransparencyAnimation.cs" />
+     <Compile Include="Assets\Scripts\Common\NonMB_Classes\Animation\ISpaceObjectAnimation.cs" />
+     <Compile Include="Assets\Scripts\Common\NonMB_Classes\Animation\ParticalSystemAnimation.cs" />
+     <Compile Include="Assets\Scripts\Common\NonMB_Classes\Model\IModelComponent.cs" />
+     <Compile Include="Assets\Scripts\Common\NonMB_Classes\RayCast\RayCasting.cs" />
+     <Compile Include="Assets\Scripts\Common\NonMB_Classes\ResourcesConstants.cs" />
+     <Compile Include="Assets\Scripts\Common\ParticleSystem\AddingParticleSystem.cs" />
+     <Compile Include="Assets\Scripts\Control\ControlDispatcher.cs" />
+     <Compile Include="Assets\Scripts\Mechanisms\SeparateXYRotationMechanism.cs" />
+     <Compile Include="Assets\Scripts\Missions\Mission.cs" />
+     <Compile Include="Assets\Scripts\Missions\MissionManager.cs" />
+     <Compile Include="Assets\Scripts\Missions\missonToPlayIn.cs" />
+     <Compile Include="Assets\Scripts\ParticleTest.cs" />
+     <Compile Include="Assets\Scripts\Player\NonMB_Classes\ControlEnum.cs" />
+     <Compile Include="Assets\Scripts\Player\NonMB_Classes\PlayerControls.cs" />
+     <Compile Include="Assets\Scripts\Player\NonMB_Classes\Ships\PlayerDriveShipMovement.cs" />
+     <Compile Include="Assets\Scripts\Player\Ship\Animation\ExhaustAnimation\TextureAnimation\EngineFinExhaustTA.cs" />
+     <Compile Include="Assets\Scripts\Ships\Animation\EngineAnimationControl.cs" />
+     <Compile Include="Assets\Scripts\Ships\Animation\FinsAnimationControl.cs" />
+     <Compile Include="Assets\Scripts\Ships\Animation\IEngineFlameAnimation.cs" />
+     <Compile Include="Assets\Scripts\Ships\Behaviour\Movement\AIShipMotor.cs" />
+     <Compile Include="Assets\Scripts\Ships\Behaviour\Movement\BasicMovement.cs" />
+     <Compile Include="Assets\Scripts\Ships\Behaviour\Movement\SmoothFollow.cs" />
+     <Compile Include="Assets\Scripts\Ships\Behaviour\PlayerDrive\ControlInputManager.cs" />
+     <Compile Include="Assets\Scripts\Ships\Behaviour\PlayerDrive\Driving.cs" />
+     <Compile Include="Assets\Scripts\Ships\Behaviour\PlayerDrive\PlayerShipMotor.cs" />
+     <Compile Include="Assets\Scripts\Ships\Behaviour\ShipBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Ships\Characters\Merchant_A.cs" />
+     <Compile Include="Assets\Scripts\Ships\Configuration\DamageReceiver.cs" />
+     <Compile Include="Assets\Scripts\Ships\Configuration\PlayerSettings.cs" />
+     <Compile Include="Assets\Scripts\Ships\Configuration\PlayerSettingsProvider.cs" />
+     <Compile Include="Assets\Scripts\Ships\Configuration\ShipBuilder.cs" />
+     <Compile Include="Assets\Scripts\Ships\Configuration\ShipSettings.cs" />
+     <Compile Include="Assets\Scripts\Ships\Configuration\VisualSensor.cs" />
+     <Compile Include="Assets\Scripts\Ships\NonMB_Classes\AIDriveShipMovement.cs" />
+     <Compile Include="Assets\Scripts\Ships\NonMB_Classes\Model\EngineModelComponent.cs" />
+     <Compile Include="Assets\Scripts\Ships\NonMB_Classes\Model\FinsModelComponent.cs" />
+     <Compile Include="Assets\Scripts\Ships\NonMB_Classes\Model\GunsModelComponent.cs" />
+     <Compile Include="Assets\Scripts\Ships\NonMB_Classes\Model\ModelComponent.cs" />
+     <Compile Include="Assets\Scripts\Ships\NonMB_Classes\Model\ShipModelAnalyzer.cs" />
+     <Compile Include="Assets\Scripts\Ships\NonMB_Classes\Model\ToolsModelComponent.cs" />
+     <Compile Include="Assets\Scripts\Ships\NonMB_Classes\ShipComponentNameConstants.cs" />
+     <Compile Include="Assets\Scripts\Ships\NonMB_Classes\ShipCondition.cs" />
+     <Compile Include="Assets\Scripts\Ships\NonMB_Classes\ShipDriveVelocities.cs" />
+     <Compile Include="Assets\Scripts\Ships\NonMB_Classes\SpaceMovement.cs" />
+     <Compile Include="Assets\Scripts\Utils\Behavior\DestroyObject.cs" />
+     <Compile Include="Assets\Scripts\Utils\Behavior\WaitingFor.cs" />
+     <Compile Include="Assets\Scripts\Utils\Constants.cs" />
+     <Compile Include="Assets\Scripts\Utils\Decorations\Decal\DecalBuilder.cs" />
+     <Compile Include="Assets\Scripts\Utils\Decorations\Decal\DecalGenerator.cs" />
+     <Compile Include="Assets\Scripts\Utils\Decorations\Decal\DecalObject.cs" />
+     <Compile Include="Assets\Scripts\Utils\Decorations\Decal\DecalPolygon.cs" />
+     <Compile Include="Assets\Scripts\Utils\Interactions\DamageData.cs" />
+     <Compile Include="Assets\Scripts\Utils\Interactions\IDamageReceiver.cs" />
+     <Compile Include="Assets\Scripts\Utils\Records\MissionRecord.cs" />
+     <Compile Include="Assets\Scripts\Utils\Records\MissionRecordLoader.cs" />
+     <Compile Include="Assets\Scripts\Utils\Resources\XMLHandler.cs" />
+     <Compile Include="Assets\Scripts\Utils\Test\MissionTest.cs" />
+     <Compile Include="Assets\Scripts\Utils\Test\ObjectHitory.cs" />
+     <Compile Include="Assets\Scripts\Weapon\GunShot.cs" />
+     <Compile Include="Assets\Scripts\Weapon\GunneryManager.cs" />
+     <Compile Include="Assets\Scripts\Weapon\Guns\HideUnhideAnimControl.cs" />
+     <Compile Include="Assets\Scripts\Weapon\Guns\SmallGunMechanicController.cs" />
+     <Compile Include="Assets\Scripts\Weapon\Guns\WeaponSettings.cs" />
+     <Compile Include="Assets\Scripts\Weapon\IGunType.cs" />
+     <Compile Include="Assets\Scripts\Weapon\ImpactGun.cs" />
+     <Compile Include="Assets\Scripts\Weapon\NonMB_Classes\ShipWeaponSet.cs" />
+     <Compile Include="Assets\Scripts\Weapon\Shells\SmallGunShell.cs" />
+     <Compile Include="Assets\Scripts\Weapon\ShipWeaponMounting.cs" />
+     <Compile Include="Assets\SimpleParticlePack\Scripts\ParticleTester.cs" />
+     <None Include="Assets\Resources\Missions\FirstMission.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Depth.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\ShaderFusion\ExampleShaders\DepthFade\FadeTest.shader" />
+     <None Include="Assets\ShaderFusion\ReadMe.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\Textures\Fizus_001\space2\Note.txt" />
+     <None Include="Assets\Rebindable Input\How To Use.txt" />
+     <None Include="Assets\ShaderFusion\ExampleShaders\RimLighting\RimLightingExample.shader" />
+     <None Include="Assets\Shaders\dif_a_2_nm_spec_gloss_1.2.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\EasyConsole\FrontEnd\NGUI\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\ShaderFusion\ExampleShaders\Water_DeferredOnly\SimpleWater.shader" />
+     <None Include="Assets\ShaderFusion\ExampleShaders\SimpleSurfaces\SimpleSurface.shader" />
+     <None Include="Assets\Shaders\Normal-BumpSpec.shader" />
+     <None Include="Assets\ShaderFusion\Editor\MaterialTools\ShaderCodeTemplates\Lighting_HalfLambertSpec.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\ShaderFusion\ExampleShaders\Reflection\Reflection2.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\Shaders\dif_nm_gloss_1.0.shader" />
+     <None Include="Assets\ShaderFusion\Editor\MaterialTools\InitFile.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\ShaderFusion\ExampleShaders\Water_DeferredOnly\AdvancedWater.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\NGUI\ReadMe.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (HardClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\ShaderFusion\ExampleShaders\CubemapReflection\CubemapReflection.shader" />
+     <None Include="Assets\Shaders\dif_nm_spec_gloss_1.1.shader" />
+     <None Include="Assets\ShaderFusion\ExampleShaders\Reflection\Reflection.shader" />
+     <None Include="Assets\Shaders\dif_a_illum_1.0.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\ShaderFusion\Editor\MaterialTools\DefaultFallbacks\ShaderFusionDefaultFallback.shader" />
+     <None Include="Assets\EasyConsole\FrontEnd\NGUI\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\ShaderFusion\Editor\MaterialTools\ShaderCodeTemplates\DefaultShaderDeferred.txt" />
+     <None Include="Assets\ShaderFusion\Editor\MaterialTools\ShaderCodeTemplates\Lighting_Default.txt" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>D:/Art/GameProjects/NorthStarCommander/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="NGUI">
+ <HintPath>D:/Art/GameProjects/NorthStarCommander/Assets/NGUI/DLLs/NGUI.dll</HintPath>
+ </Reference>
+ <Reference Include="EasyConsole">
+ <HintPath>D:/Art/GameProjects/NorthStarCommander/Assets/EasyConsole/EasyConsole.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{E9D215E7-3A75-235E-A603-39E9636CDD15}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
