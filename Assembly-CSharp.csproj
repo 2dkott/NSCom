@@ -47,12 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\DecalSystem\DecalSystem\Decal.cs" />
-     <Compile Include="Assets\EasyConsole\Commands\ConsoleWatch.cs" />
-     <Compile Include="Assets\EasyConsole\Examples\CustomCommandTest.cs" />
-     <Compile Include="Assets\EasyConsole\Examples\CustomParseTest.cs" />
-     <Compile Include="Assets\EasyConsole\FrontEnd\NGUI\ConsoleNGUI.cs" />
-     <Compile Include="Assets\EasyConsole\FrontEnd\UnityGUI\ConsoleGUI.cs" />
-     <Compile Include="Assets\EasyConsole\Parsers\ConsoleParsers.cs" />
      <Compile Include="Assets\EditorScript\AnalyzeModelComponentsEditorSrc.cs" />
      <Compile Include="Assets\EditorScript\CloneObjectPositionEsitorSrc.cs" />
      <Compile Include="Assets\Extensions\Sources\Unknown\LightningBolt.cs" />
@@ -118,8 +112,6 @@
      <Compile Include="Assets\Rebindable Input\Scripts\RebindableInput.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraClippingSettings.cs" />
      <Compile Include="Assets\Scripts\Camera\Ship\ShipCamera.cs" />
-     <Compile Include="Assets\Scripts\Characters\Actor.cs" />
-     <Compile Include="Assets\Scripts\Characters\IActor.cs" />
      <Compile Include="Assets\Scripts\Common\Animation\Mesh\AnimControlAnimation.cs" />
      <Compile Include="Assets\Scripts\Common\Animation\PartSystemAnimation\PrtSystemAnimation.cs" />
      <Compile Include="Assets\Scripts\Common\Animation\TextureAnimation\TextureTransparencyAnimation.cs" />
@@ -131,9 +123,12 @@
      <Compile Include="Assets\Scripts\Common\ParticleSystem\AddingParticleSystem.cs" />
      <Compile Include="Assets\Scripts\Control\ControlDispatcher.cs" />
      <Compile Include="Assets\Scripts\Mechanisms\SeparateXYRotationMechanism.cs" />
+     <Compile Include="Assets\Scripts\Missions\Act.cs" />
+     <Compile Include="Assets\Scripts\Missions\Actors\Actor.cs" />
+     <Compile Include="Assets\Scripts\Missions\Actors\ActorPlayerNavigator.cs" />
      <Compile Include="Assets\Scripts\Missions\Mission.cs" />
      <Compile Include="Assets\Scripts\Missions\MissionManager.cs" />
-     <Compile Include="Assets\Scripts\Missions\missonToPlayIn.cs" />
+     <Compile Include="Assets\Scripts\Missions\missonNoTimeToExplane.cs" />
      <Compile Include="Assets\Scripts\ParticleTest.cs" />
      <Compile Include="Assets\Scripts\Player\NonMB_Classes\ControlEnum.cs" />
      <Compile Include="Assets\Scripts\Player\NonMB_Classes\PlayerControls.cs" />
@@ -181,6 +176,7 @@
      <Compile Include="Assets\Scripts\Utils\Resources\XMLHandler.cs" />
      <Compile Include="Assets\Scripts\Utils\Test\MissionTest.cs" />
      <Compile Include="Assets\Scripts\Utils\Test\ObjectHitory.cs" />
+     <Compile Include="Assets\Scripts\Utils\TextManager.cs" />
      <Compile Include="Assets\Scripts\Weapon\GunShot.cs" />
      <Compile Include="Assets\Scripts\Weapon\GunneryManager.cs" />
      <Compile Include="Assets\Scripts\Weapon\Guns\HideUnhideAnimControl.cs" />
@@ -192,11 +188,11 @@
      <Compile Include="Assets\Scripts\Weapon\Shells\SmallGunShell.cs" />
      <Compile Include="Assets\Scripts\Weapon\ShipWeaponMounting.cs" />
      <Compile Include="Assets\SimpleParticlePack\Scripts\ParticleTester.cs" />
-     <None Include="Assets\Resources\Missions\FirstMission.xml" />
      <None Include="Assets\NGUI\Resources\Shaders\Depth.shader" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\ShaderFusion\ExampleShaders\DepthFade\FadeTest.shader" />
+     <None Include="Assets\Resources\Missions\NoTimeToExplane.xml" />
      <None Include="Assets\ShaderFusion\ReadMe.txt" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\Textures\Fizus_001\space2\Note.txt" />
@@ -206,7 +202,6 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
-     <None Include="Assets\EasyConsole\FrontEnd\NGUI\SciFi\SciFi Font - Header.txt" />
      <None Include="Assets\ShaderFusion\ExampleShaders\Water_DeferredOnly\SimpleWater.shader" />
      <None Include="Assets\ShaderFusion\ExampleShaders\SimpleSurfaces\SimpleSurface.shader" />
      <None Include="Assets\Shaders\Normal-BumpSpec.shader" />
@@ -217,6 +212,7 @@
      <None Include="Assets\Shaders\dif_nm_gloss_1.0.shader" />
      <None Include="Assets\ShaderFusion\Editor\MaterialTools\InitFile.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Resources\Actors\ActorNames.xml" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
      <None Include="Assets\ShaderFusion\ExampleShaders\Water_DeferredOnly\AdvancedWater.shader" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
@@ -233,7 +229,6 @@
      <None Include="Assets\Shaders\dif_a_illum_1.0.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
      <None Include="Assets\ShaderFusion\Editor\MaterialTools\DefaultFallbacks\ShaderFusionDefaultFallback.shader" />
-     <None Include="Assets\EasyConsole\FrontEnd\NGUI\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\ShaderFusion\Editor\MaterialTools\ShaderCodeTemplates\DefaultShaderDeferred.txt" />
@@ -249,9 +244,6 @@
  </Reference>
  <Reference Include="NGUI">
  <HintPath>D:/Art/GameProjects/NorthStarCommander/Assets/NGUI/DLLs/NGUI.dll</HintPath>
- </Reference>
- <Reference Include="EasyConsole">
- <HintPath>D:/Art/GameProjects/NorthStarCommander/Assets/EasyConsole/EasyConsole.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

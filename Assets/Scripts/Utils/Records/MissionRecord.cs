@@ -7,5 +7,7 @@ public class MissionRecord{
 
     [System.Xml.Serialization.XmlElement("missionTitle")]
     public string missionTitle;
+    [System.Xml.Serialization.XmlElement("id")]
+    public string missionId;
 
 }

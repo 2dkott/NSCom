@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\EasyConsole\Examples\CustomCommandTestJS.js" />
      <Compile Include="Assets\Extensions\Sources\Unknown\CrumpleMesh.js" />
      <Compile Include="Assets\Extensions\Sources\Unknown\ExtrudedMeshTrail.js" />
      <Compile Include="Assets\Extensions\Sources\Unknown\FractalTexture.js" />
@@ -69,11 +68,11 @@
      <Compile Include="Assets\Scripts\Camera\Ship\SmoothFollowToShip.js" />
      <Compile Include="Assets\ShaderFusion\CommonScripts\ReflectionPlane.js" />
      <Compile Include="Assets\ShaderFusion\CommonScripts\ShaderGlobalScreenSize.js" />
-     <None Include="Assets\Resources\Missions\FirstMission.xml" />
      <None Include="Assets\NGUI\Resources\Shaders\Depth.shader" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\ShaderFusion\ExampleShaders\DepthFade\FadeTest.shader" />
+     <None Include="Assets\Resources\Missions\NoTimeToExplane.xml" />
      <None Include="Assets\ShaderFusion\ReadMe.txt" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\Textures\Fizus_001\space2\Note.txt" />
@@ -83,7 +82,6 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
-     <None Include="Assets\EasyConsole\FrontEnd\NGUI\SciFi\SciFi Font - Header.txt" />
      <None Include="Assets\ShaderFusion\ExampleShaders\Water_DeferredOnly\SimpleWater.shader" />
      <None Include="Assets\ShaderFusion\ExampleShaders\SimpleSurfaces\SimpleSurface.shader" />
      <None Include="Assets\Shaders\Normal-BumpSpec.shader" />
@@ -94,6 +92,7 @@
      <None Include="Assets\Shaders\dif_nm_gloss_1.0.shader" />
      <None Include="Assets\ShaderFusion\Editor\MaterialTools\InitFile.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Resources\Actors\ActorNames.xml" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
      <None Include="Assets\ShaderFusion\ExampleShaders\Water_DeferredOnly\AdvancedWater.shader" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
@@ -110,7 +109,6 @@
      <None Include="Assets\Shaders\dif_a_illum_1.0.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
      <None Include="Assets\ShaderFusion\Editor\MaterialTools\DefaultFallbacks\ShaderFusionDefaultFallback.shader" />
-     <None Include="Assets\EasyConsole\FrontEnd\NGUI\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\ShaderFusion\Editor\MaterialTools\ShaderCodeTemplates\DefaultShaderDeferred.txt" />
@@ -126,9 +124,6 @@
  </Reference>
  <Reference Include="NGUI">
  <HintPath>D:/Art/GameProjects/NorthStarCommander/Assets/NGUI/DLLs/NGUI.dll</HintPath>
- </Reference>
- <Reference Include="EasyConsole">
- <HintPath>D:/Art/GameProjects/NorthStarCommander/Assets/EasyConsole/EasyConsole.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

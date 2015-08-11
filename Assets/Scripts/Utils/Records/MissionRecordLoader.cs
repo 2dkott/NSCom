@@ -4,9 +4,8 @@ using System.Collections;
 public class MissionRecordLoader : XMLHandler<MissionRecord> {
 
     public MissionRecordLoader(string filePath)
-        : base(Application.dataPath + "/Resources/" + filePath)
+        : base(filePath)
     {
-        //definePath(filePath);
         this.MissionRecords = readFromResources();
     }
 

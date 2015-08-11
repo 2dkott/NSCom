@@ -1,0 +1,11 @@
+<MissionRecord>
+  <missionTitle>To Pick-up Informer</missionTitle>
+  <id>000001</id>
+  <act>
+    <title>Waite to Pick-up</title>
+    <condition>
+      <status>0</status>
+    </condition>
+    <status>0</status>
+  </act>
+</MissionRecord>
