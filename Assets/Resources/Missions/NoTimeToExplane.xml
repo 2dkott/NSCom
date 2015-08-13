@@ -1,5 +1,16 @@
 <MissionRecord>
-  <missionTitle>To Pick-up Informer</missionTitle>
+	<missionTitle>
+		<TextLang>
+			<text>To Pick-up Informer</text>
+			<lang>Eng</lang>
+			<refId></refId>
+		</TextLang>
+		<TextLang>
+			<text>Подобрать Информатора</text>
+			<lang>Rus</lang>
+    	<refId></refId>
+		</TextLang>
+	</missionTitle>
   <id>000001</id>
   <act>
     <title>Waite to Pick-up</title>

@@ -13,7 +13,7 @@ public class Mission {
         missionRecords = recordLoader.MissionRecords;
     }
 
-    public string Title { get { return missionRecords.missionTitle; } }
+    public string Title { get { return missionRecords.MissionTitle; } }
     public string Id { get { return missionRecords.missionId; } }
 
 

@@ -1,13 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using System.Xml;
 using System.Xml.Serialization;
 
 public class MissionRecord{
 
-    [System.Xml.Serialization.XmlElement("missionTitle")]
-    public string missionTitle;
+    [XmlArray("missionTitle")]
+    public TextLang[] missionTitle;
     [System.Xml.Serialization.XmlElement("id")]
     public string missionId;
+
+    public string MissionTitle { get { Debug.Log(missionTitle);  return TextManager.findTextByLang(missionTitle).text; } }
 
 }

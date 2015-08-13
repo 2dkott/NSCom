@@ -9,7 +9,7 @@ public class MissionTest : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         ntte = new missonNoTimeToExplane();
-        Debug.Log(ntte.Id);
+        Debug.Log(ntte.Title);
     }
 	
 	// Update is called once per frame
